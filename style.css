@@ -46,9 +46,13 @@ body {
 	font-size: 96px;
 }
 .work {
-	display: grid;
-	gap: 20px;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	display: flex;
+	gap: 50px;
+
+	/* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	 */
+	justify-content: center;
+	align-items: center;
 
 	max-width: 1100px;
 	margin: 50px auto;
@@ -87,6 +91,14 @@ body {
 .about {
 	background-color: #722300;
 	width: 100%;
+}
+.work a {
+	text-decoration: none;
+	color: black;
+}
+.bottom_section a {
+	text-decoration: none;
+	color: white;
 }
 
 .contact,
