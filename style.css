@@ -117,6 +117,15 @@ body {
 	margin-bottom: 20px;
 }
 
+.work a {
+	text-decoration: none;
+	color: black;
+}
+.bottom_section a {
+	text-decoration: none;
+	color: white;
+}
+
 @media (max-width: 786px) {
 	.hero_section {
 		min-height: 50vh;
