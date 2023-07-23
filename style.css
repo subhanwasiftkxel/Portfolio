@@ -12,6 +12,11 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
+html link[rel="icon"] {
+	/* Prevent FOUC */
+	border-radius: 50%;
+}
+
 .hero_section {
 	background-image: url(images/developer.png);
 	min-height: 100vh;
